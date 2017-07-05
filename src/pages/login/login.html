@@ -1,0 +1,35 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>login</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+
+        <ion-item>
+            <ion-label floating>Username</ion-label>
+            <ion-input type="text" #email></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating #password>Password</ion-label>
+            <ion-input type="password"></ion-input>
+        </ion-item>
+        <button ion-button (click)="signIn(email,password)">Sign In</button>
+        <button ion-button (click)="signUp(email,password)">Sign Up</button>
+        <button ion-button icon-start (click)="signInWithGoogle()" full>
+  <ion-icon name="logo-google"></ion-icon>
+  Sign in with google
+</button>
+    </ion-list>
+</ion-content>
