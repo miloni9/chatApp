@@ -68,12 +68,8 @@ export class LoginPage {
 
   }
   ionViewDidLoad() {
-     let alert = this.alertCtrl.create({
-          title: 'sELECT USER',
-          subTitle: 'have fun',
-          buttons: ['Dismiss']
-        });
-        alert.present();
+
+        console.log("Viral hiii");
    /* this._auth.authState.subscribe(auth => {
       if (auth) {
         console.log("navigate");

@@ -10,7 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuth } from "angularfire2/auth";
 import { AngularFireDatabase } from "angularfire2/database";
-import { ImagePicker } from '@ionic-native/image-picker';
+//import { ImagePicker } from '@ionic-native/image-picker';
 export const firebaseconfig={
   apiKey: "AIzaSyA_CT6vz8qHVhV8mRBH8pNAHW6iNnhZdOQ",
     authDomain: "chatapp-17ffc.firebaseapp.com",
@@ -39,7 +39,7 @@ export const firebaseconfig={
     StatusBar,
     SplashScreen,
     GooglePlus,
-    ImagePicker,
+
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
